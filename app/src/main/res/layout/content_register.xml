@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/fundo_bg"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/normal_margin">
+
+        <TextView
+            android:id="@+id/text_view_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/msg_registro"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_nome_completo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/text_view_msg"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/nome_completo"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edit_text_nome_completo"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/email"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_text_senha"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edit_text_email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_text_confirme_senha"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edit_text_senha"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/confirme_senha"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_text_senha"
+            android:layout_marginTop="100dp"
+            android:background="@color/blue_dark"
+            android:text="@string/criar_conta"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+</RelativeLayout>

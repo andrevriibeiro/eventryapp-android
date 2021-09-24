@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_bg"
+    tools:context=".activity.CriarEventoActivity"
+    tools:showIn="@layout/activity_criar_evento">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/normal_margin">
+
+        <TextView
+            android:id="@+id/text_view_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/comeca_criar_evento"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_nome_evento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/text_view_msg"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/nome_evento"
+            android:paddingLeft="20dp"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_text_desc_evento"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/edit_text_nome_evento"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/descricao_evento"
+            android:paddingLeft="20dp"
+            android:scrollHorizontally="true"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_text_localização"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edit_text_desc_evento"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/endereço"
+            android:focusable="false"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_text_data_evento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edit_text_localização"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/data_evento"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_text_hora_evento"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edit_text_data_evento"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="@string/hora_evento"
+            android:inputType="time"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_text_localização"
+            android:layout_marginTop="132dp"
+            android:background="@color/blue_dark"
+            android:text="@string/criar_evento"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

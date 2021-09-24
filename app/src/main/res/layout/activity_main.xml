@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_bg">
+
+        <ImageView
+            android:id="@+id/image_view_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/image"
+            android:src="@mipmap/ic_logo_eventry" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/image_view_logo"
+            android:text="@string/perfil_message"
+            android:textAlignment="center"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_organizador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/text_view_title"
+            android:background="@color/blue_dark"
+            android:text="@string/organizador"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_convidado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/button_organizador"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:background="@color/blue_dark"
+            android:text="@string/convidado"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_sair"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textSize="16dp"
+            android:layout_below="@+id/button_convidado"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:background="@color/gray"
+            android:text="@string/logout"
+            android:textColor="@color/white" />
+
+</RelativeLayout>

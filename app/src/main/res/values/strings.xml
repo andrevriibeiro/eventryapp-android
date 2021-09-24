@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- app -->
+    <string name="app_name">EventryApp</string>
+    <string name="image">image</string>
+    <string name="ok">OK</string>
+
+    <!-- login -->
+    <string name="user">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="enter">Entrar</string>
+    <string name="register">Não tem uma conta? Cadastra-se</string>
+    <string name="login_google">Login com Google</string>
+    <string name="login_facebook">Login com Facebook</string>
+
+    <!-- perfil -->
+    <string name="perfil_message">Selecione o seu perfil</string>
+    <string name="organizador">Organizador</string>
+    <string name="convidado">CONVIDADO</string>
+    <string name="logout">SAIR</string>
+
+    <!-- error -->
+    <string name="error_usuario_load">Não foi possível carregar os dados do usuário logado</string>
+    <string name="error_connection">Não foi possivel conectar-se com a internet</string>
+    <string name="error_field">Campo Obrigatorio!</string>
+    <string name="error_usuario_create">Não foi possível criar o usuário</string>
+    <string name="error_username_password">Usuario ou Senha Invalido!</string>
+    <string name="incorrect_login">Dados de Login Incorreto. Tente Novamente</string>
+    <string name="usuario_ja_existe">Usuario Já Existe. Tente Novamente</string>
+    <string name="senha_diferente">O campo Senha e Confirmar Senha estão diferentes.</string>
+
+    <!-- message -->
+    <string name="message_alert">Atenção</string>
+    <string name="message_login">Realizando login</string>
+    <string name="message_register">Realizando Cadastro</string>
+    <string name="carregando_dados">Carregando dados...</string>
+    <string name="removendo_presente">Revomendo Presente...</string>
+    <string name="removendo_evento">Removendo Evento...</string>
+    <string name="evento_info_atualiado">Informações do Evento foram Atualizadas!</string>
+    <string name="evento_atualizado">Atualizado</string>
+    <string name="editar_evento">Editar Dados do Evento!</string>
+    <string name="add_presente">Adicionando Presente</string>
+
+    <!-- register -->
+    <string name="msg_registro">Faça seu Cadastro. É simples e rápido :)</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="email">Digite seu e-mail</string>
+    <string name="senha">Digite sua Senha</string>
+    <string name="confirme_senha">Confirme sua Senha</string>
+
+    <!-- button -->
+    <string name="criar_conta">CRIAR CONTA</string>
+    <string name="atualizar">ATUALIZAR</string>
+
+    <!-- navigator title -->
+    <string name="title_home">Inicio</string>
+    <string name="title_editar_evento">Editar Evento</string>
+    <string name="title_lista_presentes">Lista de Presentes</string>
+    <string name="title_convidados">Convidados</string>
+    <string name="title_avalicao">Avalicações</string>
+    <string name="title_logout">Sair</string>
+
+
+    <!-- Activity Title -->
+    <string name="title_activity_login">EventryApp</string>
+    <string name="title_activity_register">Cadastre-se</string>
+    <string name="title_activity_organizador">Organizador</string>
+    <string name="title_activity_convidado">Convidado</string>
+    <string name="title_activity_criar_evento">Cadastrar Evento</string>
+
+
+    <!-- Criar Evento -->
+    <string name="comeca_criar_evento">COMEÇE JÁ A CRIAR SEU EVENTO!</string>
+    <string name="nome_evento">Escreva aqui o nome do seu Evento </string>
+    <string name="descricao_evento">Descrição do Evento</string>
+    <string name="endereço">Localização do Evento</string>
+    <string name="data_evento">Data do Evento (DD/MM/AAAA)</string>
+    <string name="hora_evento">Horário do Evento (HH:MM)</string>
+    <string name="presentes">Lista de Presentes</string>
+    <string name="criar_evento">CRIAR EVENTO</string>
+
+
+    <!-- Endereço -->
+    <string name="cep"> Insira o CEP do Local</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="numero_endereco">Número</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_evento">EventoActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_organizador_evento">Evento</string>
+
+    <!-- Presente -->
+    <string name="nome_presente"> Nome do Presente</string>
+    <string name="desc_presente">Descrição do Presente</string>
+
+</resources>
